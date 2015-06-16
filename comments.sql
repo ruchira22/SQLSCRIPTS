@@ -1,0 +1,1 @@
+select p.*,s.* from comments s inner join statuses p on s.sid=p.sid;
